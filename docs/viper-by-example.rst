@@ -9,11 +9,6 @@ Viper by Example
 Voting
 ******
 
-As an introductory example of a smart contract written in Viper, we will begin
-with a simple contract for voting. As we dive into the contract, it is important
-to remember that all Viper syntax is valid Python3 syntax, however not all
-Python3 functionality is available in Viper.
-
 In this contract, we will implement a system for participants to vote on a list
 of proposals. The chairperson of the contract will be able to give each
 participant the right to vote and each participant may choose to vote or
@@ -90,7 +85,7 @@ all the proposals and returns the one with the greatest number of votes.
 
 
 As we can see, this is contract of moderate length which we will dissect
-section by section. Let’s get started!
+section by section. Let’s begin!
 
 
 ::
@@ -289,10 +284,9 @@ key’ing into the ``proposals`` dictionary with the return result of the
 
 And there you have it - a simple voting contract. Of course, there are a few
 optimizations that can be made in this contract, but we purposefully kept this
-introductory example simple to demonstrate the breadth of functionality
-available in the language. Hopefully, this example has provided some insight
-to the possibilities of Viper. Currently, many transactions are needed to
-assign the rights to vote to all participants. As an exercise, can we try to
-optimize this?
+example simple to demonstrate the breadth of functionality available in the
+language. Hopefully, this example has provided some insight to the possibilities
+of Viper. Currently, many transactions are needed to assign the rights to vote
+to all participants. As an exercise, can we try to optimize this?
 
 When we’re ready, let’s move on to the next example.
