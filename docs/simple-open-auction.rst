@@ -190,4 +190,4 @@ As any application becomes more complex, the greater the potential for
 introducing new risks. Thus, it's always good practice to keep contracts as
 readable and simple as possible.
 
-Let's move onto the next section.
+Whenever you're ready, let's turn it up a notch in the next example.
